@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
+$host = "sql304.infinityfree.com";
 $user = "root";
-$pass = ""; // your DB password
-$dbname = "autocare_system"; // change to your database name
+$pass = "MarkedUplangu3"; // your DB password
+$dbname = "if0_40100418_autocare_system"; // change to your database name
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
@@ -11,3 +11,4 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+
